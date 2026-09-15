@@ -1,8 +1,10 @@
+#!/usr/bin/env python3
+
 import requests
 import os
 from dotenv import load_dotenv
 load_dotenv()  
-STEAM_API = os.getenv("STEAM_API_KEY")  
+STEAM_API = os.getenv("STEAM_API")  
 STEAM_ID = os.getenv("STEAM_ID")
 
 def obtain_games_and_hours():
